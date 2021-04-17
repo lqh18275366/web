@@ -1,0 +1,172 @@
+{
+  "uid" : "ebd01d48f693589b",
+  "name" : "针对正常登录的测试",
+  "fullName" : "cases.test_login.TestLogin#test_login_success",
+  "historyId" : "4de4eac7aa5437331edc4ae996ff58ee",
+  "time" : {
+    "start" : 1609856260851,
+    "stop" : 1609856273900,
+    "duration" : 13049
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'LoginPage' object has no attribute 'logout_text_exist'",
+  "statusTrace" : "self = <cases.test_login.TestLogin object at 0x039DB130>\nhandler = (<selenium.webdriver.chrome.webdriver.WebDriver (session=\"71fa2c05bb1112ceabfff6a431f67322\")>, <pages.login_page.LoginPage object at 0x03892A90>)\n\n    @allure.severity(allure.severity_level.BLOCKER)  #将该用例设置为最严重的等级\n    #登录成功\n    @pytest.mark.last  #控制测试用例该测试用例最后一个执行\n    @allure.story('登录模块-正常登录')\n    @allure.title('针对正常登录的测试')\n    def test_login_success(self,handler):\n        #sys._getframe().f_code.co_name : 获取test_login_success，且打印出\n        logger.info('执行{}测试用例'.format(sys._getframe().f_code.co_name))\n        logger.info('进入 test_login_success methon')\n        logger.info(\"登录测试—正常数据\")\n        step_1()\n        # 输入正确的用户名，密码进行登录，其中handler【1】表示lg（即，driver.get(login_url) ）\n        handler[1].login(success_data['username'],success_data['password'])  #在输入数据前清除输入框里的内容\n        logger.info('期望值：{}'.format('退出'))\n>       logger.info('实际值：{}'.format(handler[1].logout_text_exist()))  #is_logout_text_exist()：方法1中定义\nE       AttributeError: 'LoginPage' object has no attribute 'logout_text_exist'\n\ncases\\test_login.py:42: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "refresh_page",
+    "time" : {
+      "start" : 1609856260850,
+      "stop" : 1609856260850,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "handler",
+    "time" : {
+      "start" : 1609856242828,
+      "stop" : 1609856256063,
+      "duration" : 13235
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'LoginPage' object has no attribute 'logout_text_exist'",
+    "statusTrace" : "self = <cases.test_login.TestLogin object at 0x039DB130>\nhandler = (<selenium.webdriver.chrome.webdriver.WebDriver (session=\"71fa2c05bb1112ceabfff6a431f67322\")>, <pages.login_page.LoginPage object at 0x03892A90>)\n\n    @allure.severity(allure.severity_level.BLOCKER)  #将该用例设置为最严重的等级\n    #登录成功\n    @pytest.mark.last  #控制测试用例该测试用例最后一个执行\n    @allure.story('登录模块-正常登录')\n    @allure.title('针对正常登录的测试')\n    def test_login_success(self,handler):\n        #sys._getframe().f_code.co_name : 获取test_login_success，且打印出\n        logger.info('执行{}测试用例'.format(sys._getframe().f_code.co_name))\n        logger.info('进入 test_login_success methon')\n        logger.info(\"登录测试—正常数据\")\n        step_1()\n        # 输入正确的用户名，密码进行登录，其中handler【1】表示lg（即，driver.get(login_url) ）\n        handler[1].login(success_data['username'],success_data['password'])  #在输入数据前清除输入框里的内容\n        logger.info('期望值：{}'.format('退出'))\n>       logger.info('实际值：{}'.format(handler[1].logout_text_exist()))  #is_logout_text_exist()：方法1中定义\nE       AttributeError: 'LoginPage' object has no attribute 'logout_text_exist'\n\ncases\\test_login.py:42: AttributeError",
+    "steps" : [ {
+      "name" : "步骤1：登录",
+      "time" : {
+        "start" : 1609856260859,
+        "stop" : 1609856260860,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "6683f3d88199d8b5",
+      "name" : "log",
+      "source" : "6683f3d88199d8b5.txt",
+      "type" : "text/plain",
+      "size" : 4477
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "refresh_page::0",
+    "time" : {
+      "start" : 1609856273912,
+      "stop" : 1609856277825,
+      "duration" : 3913
+    },
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'module' object is not callable\n",
+    "statusTrace" : "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\allure_commons\\_allure.py\", line 200, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\_pytest\\fixtures.py\", line 941, in _teardown_yield_fixture\n    next(it)\n  File \"C:\\Users\\Administrator\\PycharmProjects\\po_jrj\\cases\\conftest.py\", line 44, in refresh_page\n    time(3)  #刷新完页面后等待3秒再执行之后的语句\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1609856277827,
+      "stop" : 1609856281790,
+      "duration" : 3963
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "金融界web自动化自测"
+  }, {
+    "name" : "story",
+    "value" : "登录模块-正常登录"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "金融界web登录模块"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('refresh_page')"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=-1)"
+  }, {
+    "name" : "tag",
+    "value" : "last"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200718ELAI"
+  }, {
+    "name" : "thread",
+    "value" : "38852-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "last", "run(order=-1)", "@pytest.mark.usefixtures('refresh_page')" ]
+  },
+  "source" : "ebd01d48f693589b.json",
+  "parameterValues" : [ ]
+}

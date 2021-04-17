@@ -1,0 +1,175 @@
+{
+  "uid" : "70ac594eebb5f811",
+  "name" : "针对异常登陆的测试",
+  "fullName" : "cases.test_login.TestLogin#test_login_failed",
+  "historyId" : "28fbee3f7849e5c692210a9f12e7fe96",
+  "time" : {
+    "start" : 1609921319454,
+    "stop" : 1609921321030,
+    "duration" : 1576
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "refresh_page",
+    "time" : {
+      "start" : 1609921319453,
+      "stop" : 1609921319453,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "handler",
+    "time" : {
+      "start" : 1609921300800,
+      "stop" : 1609921314789,
+      "duration" : 13989
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：登录",
+      "time" : {
+        "start" : 1609921319463,
+        "stop" : 1609921319464,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "开始断言",
+      "time" : {
+        "start" : 1609921320188,
+        "stop" : 1609921320189,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "6b4f791ba8db86f3",
+      "name" : "log",
+      "source" : "6b4f791ba8db86f3.txt",
+      "type" : "text/plain",
+      "size" : 9230
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "refresh_page::0",
+    "time" : {
+      "start" : 1609921321032,
+      "stop" : 1609921324532,
+      "duration" : 3500
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1609921351195,
+      "stop" : 1609921354006,
+      "duration" : 2811
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "金融界web登录模块"
+  }, {
+    "name" : "epic",
+    "value" : "金融界web自动化自测"
+  }, {
+    "name" : "story",
+    "value" : "登录模块-异常登陆"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('refresh_page')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200718ELAI"
+  }, {
+    "name" : "thread",
+    "value" : "42032-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录功能-异常登录-用户名错误', 'username': 'abc', 'password': '654321Ok'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('refresh_page')" ]
+  },
+  "source" : "70ac594eebb5f811.json",
+  "parameterValues" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': 'abc', 'password': '654321Ok'}" ]
+}

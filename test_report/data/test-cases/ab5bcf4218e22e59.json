@@ -1,0 +1,103 @@
+{
+  "uid" : "ab5bcf4218e22e59",
+  "name" : "test_login_failed[data0]",
+  "fullName" : "cases.test_login.TestLogin#test_login_failed",
+  "historyId" : "d93c8b521d1ee7fc4eb27338522fd359",
+  "time" : {
+    "start" : 1609591873858,
+    "stop" : 1609591874538,
+    "duration" : 680
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "handler",
+    "time" : {
+      "start" : 1609591861598,
+      "stop" : 1609591873855,
+      "duration" : 12257
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "11b33aa062325a31",
+      "name" : "log",
+      "source" : "11b33aa062325a31.txt",
+      "type" : "text/plain",
+      "size" : 7667
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1609591885943,
+      "stop" : 1609591890953,
+      "duration" : 5010
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200718ELAI"
+  }, {
+    "name" : "thread",
+    "value" : "7612-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab5bcf4218e22e59.json",
+  "parameterValues" : [ "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}" ]
+}

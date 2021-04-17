@@ -1,0 +1,73 @@
+{
+  "uid" : "80977e4c39cacc07",
+  "name" : "test_login_success",
+  "fullName" : "cases.test_login.TestLogin#test_login_success",
+  "historyId" : "4de4eac7aa5437331edc4ae996ff58ee",
+  "time" : {
+    "start" : 1609212741372,
+    "stop" : 1609212741372,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'module' object is not callable",
+  "statusTrace" : "@pytest.fixture(scope='session')\n    def handler():\n>       driver = webdriver.chrome()  #调取chrom浏览器\nE       TypeError: 'module' object is not callable\n\ncases\\conftest.py:9: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "handler",
+    "time" : {
+      "start" : 1609212741375,
+      "stop" : 1609212741375,
+      "duration" : 0
+    },
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'module' object is not callable\n",
+    "statusTrace" : "  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\_pytest\\fixtures.py\", line 1126, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"C:\\Users\\Administrator\\AppData\\Local\\Programs\\Python\\Python36-32\\lib\\site-packages\\_pytest\\fixtures.py\", line 925, in call_fixture_func\n    fixture_result = next(generator)\n  File \"C:\\Users\\Administrator\\PycharmProjects\\po_jrj\\cases\\conftest.py\", line 9, in handler\n    driver = webdriver.chrome()  #调取chrom浏览器\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200718ELAI"
+  }, {
+    "name" : "thread",
+    "value" : "772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80977e4c39cacc07.json",
+  "parameterValues" : [ ]
+}

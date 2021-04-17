@@ -1,0 +1,27 @@
+INFO     root:get_log.py:36 执行test_login_failed测试用例
+INFO     root:get_log.py:36 登录测试-异常数据
+INFO     root:get_log.py:36 准备登录
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59724/session/8242252af688b652813231f296d5660a/element {"using": "css selector", "value": "[id=\"txtUsername\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:59724 "POST /session/8242252af688b652813231f296d5660a/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59724/session/8242252af688b652813231f296d5660a/element/a13e615c-7bd3-4b0a-ad04-fa94f01679e7/value {"text": "\u8d22\u53cb2sna67", "value": ["\u8d22", "\u53cb", "2", "s", "n", "a", "6", "7"], "id": "a13e615c-7bd3-4b0a-ad04-fa94f01679e7"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:59724 "POST /session/8242252af688b652813231f296d5660a/element/a13e615c-7bd3-4b0a-ad04-fa94f01679e7/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59724/session/8242252af688b652813231f296d5660a/element {"using": "css selector", "value": "[id=\"txtPassword\"]"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:59724 "POST /session/8242252af688b652813231f296d5660a/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59724/session/8242252af688b652813231f296d5660a/element/60f1c31d-06b4-4e59-b7ca-5ed54d3fb920/value {"text": "", "value": [], "id": "60f1c31d-06b4-4e59-b7ca-5ed54d3fb920"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:59724 "POST /session/8242252af688b652813231f296d5660a/element/60f1c31d-06b4-4e59-b7ca-5ed54d3fb920/value HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59724/session/8242252af688b652813231f296d5660a/element {"using": "css selector", "value": ".sso-btn-login"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:59724 "POST /session/8242252af688b652813231f296d5660a/element HTTP/1.1" 200 88
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59724/session/8242252af688b652813231f296d5660a/element/a0a8349d-56b7-4e47-91b0-f6cfa3217876/click {"id": "a0a8349d-56b7-4e47-91b0-f6cfa3217876"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:59724 "POST /session/8242252af688b652813231f296d5660a/element/a0a8349d-56b7-4e47-91b0-f6cfa3217876/click HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:36 期望值：True
+INFO     root:get_log.py:36 出现异常
+INFO     root:get_log.py:36 'LoginPage' object has no attribute 'get_account_login_text'
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:59724/session/8242252af688b652813231f296d5660a/refresh {}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:59724 "POST /session/8242252af688b652813231f296d5660a/refresh HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

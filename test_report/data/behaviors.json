@@ -1,0 +1,86 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "金融界web自动化自测",
+    "children" : [ {
+      "name" : "金融界web登录模块",
+      "children" : [ {
+        "name" : "登录模块-异常登陆",
+        "children" : [ {
+          "name" : "针对异常登陆的测试",
+          "uid" : "f5b66868ad41bce",
+          "parentUid" : "7026d5dc6b488f057ba22a685581486e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610940143095,
+            "stop" : 1610940144364,
+            "duration" : 1269
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}" ]
+        }, {
+          "name" : "针对异常登陆的测试",
+          "uid" : "bc88249d01a3e86",
+          "parentUid" : "7026d5dc6b488f057ba22a685581486e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610940148113,
+            "stop" : 1610940150129,
+            "duration" : 2016
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'name': '登录功能-异常登录-用户名错误', 'username': 'abc', 'password': '654321Ok'}" ]
+        }, {
+          "name" : "针对异常登陆的测试",
+          "uid" : "b1c254587b6e3237",
+          "parentUid" : "7026d5dc6b488f057ba22a685581486e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610940153929,
+            "stop" : 1610940154933,
+            "duration" : 1004
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'name': '登录功能-异常登录-密码为空', 'username': '财友2sna67', 'password': ''}" ]
+        }, {
+          "name" : "针对异常登陆的测试",
+          "uid" : "665cca7c70c4e4cd",
+          "parentUid" : "7026d5dc6b488f057ba22a685581486e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610940159036,
+            "stop" : 1610940161058,
+            "duration" : 2022
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'name': '登录功能-异常登录-密码错误', 'username': '财友2sna6763', 'password': '654321'}" ]
+        } ],
+        "uid" : "7026d5dc6b488f057ba22a685581486e"
+      }, {
+        "name" : "登录模块-正常登录",
+        "children" : [ {
+          "name" : "针对正常登录的测试",
+          "uid" : "e3c6aa18f7786a19",
+          "parentUid" : "77cfd0caea888b4320a4ab86cd46e76b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1610940164652,
+            "stop" : 1610940178845,
+            "duration" : 14193
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "77cfd0caea888b4320a4ab86cd46e76b"
+      } ],
+      "uid" : "159cb73b920db2440874e0b5202206a5"
+    } ],
+    "uid" : "b65b37398d7440d0ff029b360e2b2592"
+  } ],
+  "name" : "behaviors"
+}

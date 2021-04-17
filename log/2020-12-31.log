@@ -1,0 +1,14 @@
+2020-12-31 22:21:19,604 - root - INFO - 进入 test_login_success methon
+2020-12-31 22:21:19,608 - root - INFO - 登录测试—正常数据
+2020-12-31 22:21:20,267 - root - INFO - 期望值：True
+2020-12-31 22:21:40,598 - root - INFO - 实际值：False
+2020-12-31 22:30:34,206 - root - INFO - 进入 test_login_success methon
+2020-12-31 22:30:34,208 - root - INFO - 登录测试—正常数据
+2020-12-31 22:31:30,629 - root - INFO - 期望值：True
+2020-12-31 22:31:53,936 - root - INFO - 实际值：False
+2020-12-31 22:33:00,370 - root - INFO - 进入 test_login_success methon
+2020-12-31 22:33:00,373 - root - INFO - 登录测试—正常数据
+2020-12-31 22:43:14,805 - root - INFO - 进入 test_login_success methon
+2020-12-31 22:43:14,806 - root - INFO - 登录测试—正常数据
+2020-12-31 22:43:24,326 - root - INFO - 期望值：True
+2020-12-31 22:43:24,392 - root - INFO - 实际值：True

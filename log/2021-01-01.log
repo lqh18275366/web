@@ -1,0 +1,12 @@
+2021-01-01 21:34:52,204 - root - INFO - 执行test_login_success测试用例
+2021-01-01 21:34:52,206 - root - INFO - 进入 test_login_success methon
+2021-01-01 21:34:52,207 - root - INFO - 登录测试—正常数据
+2021-01-01 21:35:01,727 - root - INFO - 期望值：True
+2021-01-01 21:35:01,797 - root - INFO - 实际值：True
+2021-01-01 21:35:01,834 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-01 21:35:46,481 - root - INFO - 执行test_login_success测试用例
+2021-01-01 21:35:46,482 - root - INFO - 进入 test_login_success methon
+2021-01-01 21:35:46,484 - root - INFO - 登录测试—正常数据
+2021-01-01 21:36:00,456 - root - INFO - 期望值：True
+2021-01-01 21:36:00,510 - root - INFO - 实际值：True
+2021-01-01 21:36:00,551 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====

@@ -1,0 +1,51 @@
+[ {
+  "uid" : "bc88249d01a3e86",
+  "name" : "针对异常登陆的测试",
+  "time" : {
+    "start" : 1610940148113,
+    "stop" : 1610940150129,
+    "duration" : 2016
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5b66868ad41bce",
+  "name" : "针对异常登陆的测试",
+  "time" : {
+    "start" : 1610940143095,
+    "stop" : 1610940144364,
+    "duration" : 1269
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1c254587b6e3237",
+  "name" : "针对异常登陆的测试",
+  "time" : {
+    "start" : 1610940153929,
+    "stop" : 1610940154933,
+    "duration" : 1004
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "665cca7c70c4e4cd",
+  "name" : "针对异常登陆的测试",
+  "time" : {
+    "start" : 1610940159036,
+    "stop" : 1610940161058,
+    "duration" : 2022
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3c6aa18f7786a19",
+  "name" : "针对正常登录的测试",
+  "time" : {
+    "start" : 1610940164652,
+    "stop" : 1610940178845,
+    "duration" : 14193
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]

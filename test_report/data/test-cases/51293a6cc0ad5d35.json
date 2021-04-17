@@ -1,0 +1,87 @@
+{
+  "uid" : "51293a6cc0ad5d35",
+  "name" : "test_login_failed[data0]",
+  "fullName" : "cases.test_login.TestLogin#test_login_failed",
+  "historyId" : "d93c8b521d1ee7fc4eb27338522fd359",
+  "time" : {
+    "start" : 1609587146076,
+    "stop" : 1609587147410,
+    "duration" : 1334
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "handler",
+    "time" : {
+      "start" : 1609587126783,
+      "stop" : 1609587146071,
+      "duration" : 19288
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1609587165582,
+      "stop" : 1609587170148,
+      "duration" : 4566
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200718ELAI"
+  }, {
+    "name" : "thread",
+    "value" : "8060-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "51293a6cc0ad5d35.json",
+  "parameterValues" : [ "{'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}" ]
+}

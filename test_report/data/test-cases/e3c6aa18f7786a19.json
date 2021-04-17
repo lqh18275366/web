@@ -1,0 +1,737 @@
+{
+  "uid" : "e3c6aa18f7786a19",
+  "name" : "针对正常登录的测试",
+  "fullName" : "cases.test_login.TestLogin#test_login_success",
+  "historyId" : "4de4eac7aa5437331edc4ae996ff58ee",
+  "time" : {
+    "start" : 1610940164652,
+    "stop" : 1610940178845,
+    "duration" : 14193
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "refresh_page",
+    "time" : {
+      "start" : 1610940164651,
+      "stop" : 1610940164651,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "handler",
+    "time" : {
+      "start" : 1610940125410,
+      "stop" : 1610940143092,
+      "duration" : 17682
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：登录",
+      "time" : {
+        "start" : 1610940164659,
+        "stop" : 1610940164662,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "开始断言",
+      "time" : {
+        "start" : 1610940177828,
+        "stop" : 1610940177830,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "35ec7f94524783b9",
+      "name" : "log",
+      "source" : "35ec7f94524783b9.txt",
+      "type" : "text/plain",
+      "size" : 100210
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "refresh_page::0",
+    "time" : {
+      "start" : 1610940178846,
+      "stop" : 1610940186752,
+      "duration" : 7906
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1610940186755,
+      "stop" : 1610940194618,
+      "duration" : 7863
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "金融界web登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录模块-正常登录"
+  }, {
+    "name" : "epic",
+    "value" : "金融界web自动化自测"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('refresh_page')"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=-1)"
+  }, {
+    "name" : "tag",
+    "value" : "last"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200718ELAI"
+  }, {
+    "name" : "thread",
+    "value" : "10944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "691a9f1940e8a5c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609925678821,
+        "stop" : 1609925689378,
+        "duration" : 10557
+      }
+    }, {
+      "uid" : "6a70dbfa4e93c66d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609924922257,
+        "stop" : 1609924932598,
+        "duration" : 10341
+      }
+    }, {
+      "uid" : "9b09b2db004b9f88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609923366202,
+        "stop" : 1609923384158,
+        "duration" : 17956
+      }
+    }, {
+      "uid" : "df6a9a0dd26c0a1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609921333364,
+        "stop" : 1609921343929,
+        "duration" : 10565
+      }
+    }, {
+      "uid" : "f00f5c2e10b4fd56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609858650202,
+        "stop" : 1609858658551,
+        "duration" : 8349
+      }
+    }, {
+      "uid" : "b6ec7ce82111cedc",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'logout_text_exist'",
+      "time" : {
+        "start" : 1609858456549,
+        "stop" : 1609858464797,
+        "duration" : 8248
+      }
+    }, {
+      "uid" : "71276cd0a01d98da",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'logout_text_exist'",
+      "time" : {
+        "start" : 1609858082175,
+        "stop" : 1609858093554,
+        "duration" : 11379
+      }
+    }, {
+      "uid" : "718986859c19e55",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'logout_text_exist'",
+      "time" : {
+        "start" : 1609856711443,
+        "stop" : 1609856719889,
+        "duration" : 8446
+      }
+    }, {
+      "uid" : "ebd01d48f693589b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'logout_text_exist'",
+      "time" : {
+        "start" : 1609856260851,
+        "stop" : 1609856273900,
+        "duration" : 13049
+      }
+    }, {
+      "uid" : "71234e9a4e9db383",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609595663442,
+        "stop" : 1609595671848,
+        "duration" : 8406
+      }
+    }, {
+      "uid" : "7ed85ba63c4c81dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609595587317,
+        "stop" : 1609595597265,
+        "duration" : 9948
+      }
+    }, {
+      "uid" : "a1cb743f03af591d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609595382136,
+        "stop" : 1609595391175,
+        "duration" : 9039
+      }
+    }, {
+      "uid" : "8fc7b418ac96ccae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609595270591,
+        "stop" : 1609595285582,
+        "duration" : 14991
+      }
+    }, {
+      "uid" : "4f3a8a2f572ff408",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609595074227,
+        "stop" : 1609595082758,
+        "duration" : 8531
+      }
+    }, {
+      "uid" : "1493c2fe8bc18de5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609594974643,
+        "stop" : 1609594985234,
+        "duration" : 10591
+      }
+    }, {
+      "uid" : "e7bfe4690ab01b55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609593977690,
+        "stop" : 1609594039943,
+        "duration" : 62253
+      }
+    }, {
+      "uid" : "509472d1cd53091d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609593764673,
+        "stop" : 1609593773077,
+        "duration" : 8404
+      }
+    }, {
+      "uid" : "f6fb60c7dd5c7a42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609593307955,
+        "stop" : 1609593317376,
+        "duration" : 9421
+      }
+    }, {
+      "uid" : "42287c2d2bdd73c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609591876787,
+        "stop" : 1609591885942,
+        "duration" : 9155
+      }
+    }, {
+      "uid" : "aa02ab70531e6735",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609591287708,
+        "stop" : 1609591294008,
+        "duration" : 6300
+      }
+    }, {
+      "uid" : "dc31ac16a0811e30",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609589977395,
+        "stop" : 1609589990186,
+        "duration" : 12791
+      }
+    }, {
+      "uid" : "1177820bb341dc4f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609589880976,
+        "stop" : 1609589888443,
+        "duration" : 7467
+      }
+    }, {
+      "uid" : "d5cc115cc348833c",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609587149546,
+        "stop" : 1609587165474,
+        "duration" : 15928
+      }
+    }, {
+      "uid" : "301dfec7f52c33f6",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609586585981,
+        "stop" : 1609586594499,
+        "duration" : 8518
+      }
+    }, {
+      "uid" : "48271a24b745f5d3",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609586469095,
+        "stop" : 1609586470018,
+        "duration" : 923
+      }
+    }, {
+      "uid" : "5d95cc9d58460692",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609586030396,
+        "stop" : 1609586040017,
+        "duration" : 9621
+      }
+    }, {
+      "uid" : "9a87e91747270518",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609585443630,
+        "stop" : 1609585451592,
+        "duration" : 7962
+      }
+    }, {
+      "uid" : "948ef156407d9b91",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609585016137,
+        "stop" : 1609585027199,
+        "duration" : 11062
+      }
+    }, {
+      "uid" : "1b2469c1be6d5e99",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609584868521,
+        "stop" : 1609584883591,
+        "duration" : 15070
+      }
+    }, {
+      "uid" : "2f4a370d1eadfdf2",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609584784142,
+        "stop" : 1609584785299,
+        "duration" : 1157
+      }
+    }, {
+      "uid" : "b18665be5bce00d3",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609584722725,
+        "stop" : 1609584723490,
+        "duration" : 765
+      }
+    }, {
+      "uid" : "909e76edd262c9cb",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609584675342,
+        "stop" : 1609584676058,
+        "duration" : 716
+      }
+    }, {
+      "uid" : "4700016557114076",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609584525956,
+        "stop" : 1609584526613,
+        "duration" : 657
+      }
+    }, {
+      "uid" : "48846baea5474b84",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609584034715,
+        "stop" : 1609584038507,
+        "duration" : 3792
+      }
+    }, {
+      "uid" : "c44fe964b8450137",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609583846002,
+        "stop" : 1609583856144,
+        "duration" : 10142
+      }
+    }, {
+      "uid" : "51ff2e60936174ab",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"txtUsername\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1609583812361,
+        "stop" : 1609583812419,
+        "duration" : 58
+      }
+    }, {
+      "uid" : "ef585e895356a902",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'LoginPage' object has no attribute 'is_logout_text_exist'",
+      "time" : {
+        "start" : 1609575205901,
+        "stop" : 1609575215843,
+        "duration" : 9942
+      }
+    }, {
+      "uid" : "42ad32137a98cab7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609518604574,
+        "stop" : 1609518614186,
+        "duration" : 9612
+      }
+    }, {
+      "uid" : "37c5bcf7f718ec32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609518523506,
+        "stop" : 1609518532770,
+        "duration" : 9264
+      }
+    }, {
+      "uid" : "a3dfc93c0dc44a0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609518444394,
+        "stop" : 1609518455007,
+        "duration" : 10613
+      }
+    }, {
+      "uid" : "1825a7e55b9c3c9d",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'locale' codec can't encode character '\\u2014' in position 5: Illegal byte sequence",
+      "time" : {
+        "start" : 1609518105979,
+        "stop" : 1609518115247,
+        "duration" : 9268
+      }
+    }, {
+      "uid" : "c9c47d2eceb47e03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609517943006,
+        "stop" : 1609517973139,
+        "duration" : 30133
+      }
+    }, {
+      "uid" : "99dd089bc3d2da8c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"txtUsername\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1609517886074,
+        "stop" : 1609517886148,
+        "duration" : 74
+      }
+    }, {
+      "uid" : "f5222f41647fee1e",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'locale' codec can't encode character '\\u2014' in position 5: Illegal byte sequence",
+      "time" : {
+        "start" : 1609517713103,
+        "stop" : 1609517769772,
+        "duration" : 56669
+      }
+    }, {
+      "uid" : "699641bb0dae947b",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'locale' codec can't encode character '\\u2014' in position 5: Illegal byte sequence",
+      "time" : {
+        "start" : 1609517490190,
+        "stop" : 1609517499122,
+        "duration" : 8932
+      }
+    }, {
+      "uid" : "54d856ec8aa199ac",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'locale' codec can't encode character '\\u2014' in position 5: Illegal byte sequence",
+      "time" : {
+        "start" : 1609517415963,
+        "stop" : 1609517425528,
+        "duration" : 9565
+      }
+    }, {
+      "uid" : "d86cc8a5dfd0a634",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'locale' codec can't encode character '\\u2014' in position 5: Illegal byte sequence",
+      "time" : {
+        "start" : 1609516735142,
+        "stop" : 1609516744873,
+        "duration" : 9731
+      }
+    }, {
+      "uid" : "507c35f98473de1c",
+      "status" : "broken",
+      "statusDetails" : "UnicodeEncodeError: 'locale' codec can't encode character '\\u2014' in position 5: Illegal byte sequence",
+      "time" : {
+        "start" : 1609516254830,
+        "stop" : 1609516263667,
+        "duration" : 8837
+      }
+    }, {
+      "uid" : "ff9fa42675101d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609508146481,
+        "stop" : 1609508160552,
+        "duration" : 14071
+      }
+    }, {
+      "uid" : "43034d02b9174113",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609508092204,
+        "stop" : 1609508101835,
+        "duration" : 9631
+      }
+    }, {
+      "uid" : "a02067e67b49d5",
+      "status" : "broken",
+      "statusDetails" : "OSError: [WinError 87] 参数错误。",
+      "time" : {
+        "start" : 1609507979849,
+        "stop" : 1609507979849,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "13ba8c72b35fda72",
+      "status" : "broken",
+      "statusDetails" : "OSError: [WinError 87] 参数错误。",
+      "time" : {
+        "start" : 1609507722615,
+        "stop" : 1609507722615,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b3495b0b0646c3e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609425794806,
+        "stop" : 1609425804436,
+        "duration" : 9630
+      }
+    }, {
+      "uid" : "468b978088563dca",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x04C57F50>>()\n +    where <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x04C57F50>> = <pages.login_page.LoginPage object at 0x04C57F50>.is_logout_text_exist",
+      "time" : {
+        "start" : 1609424479602,
+        "stop" : 1609424520991,
+        "duration" : 41389
+      }
+    }, {
+      "uid" : "47369fd4509015ae",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x041FA750>>()\n +    where <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x041FA750>> = <pages.login_page.LoginPage object at 0x041FA750>.is_logout_text_exist",
+      "time" : {
+        "start" : 1609341348351,
+        "stop" : 1609341389527,
+        "duration" : 41176
+      }
+    }, {
+      "uid" : "bafa3c9cb04feda0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x03EA5E70>>()\n +    where <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x03EA5E70>> = <pages.login_page.LoginPage object at 0x03EA5E70>.is_logout_text_exist",
+      "time" : {
+        "start" : 1609341149637,
+        "stop" : 1609341190872,
+        "duration" : 41235
+      }
+    }, {
+      "uid" : "b7b2a316c092599d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False\n +  where False = <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x036435F0>>()\n +    where <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x036435F0>> = <pages.login_page.LoginPage object at 0x036435F0>.is_logout_text_exist",
+      "time" : {
+        "start" : 1609340627559,
+        "stop" : 1609340668716,
+        "duration" : 41157
+      }
+    }, {
+      "uid" : "862c485e36357877",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: 'chromedriver' executable needs to be in PATH. Please see https://sites.google.com/a/chromium.org/chromedriver/home",
+      "time" : {
+        "start" : 1609334533344,
+        "stop" : 1609334533344,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1ab834fbe1b0693f",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'module' object is not callable",
+      "time" : {
+        "start" : 1609334332209,
+        "stop" : 1609334332209,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1625123258f44af7",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'module' object is not callable",
+      "time" : {
+        "start" : 1609334203246,
+        "stop" : 1609334203246,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2a786912f1812c14",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'module' object is not callable",
+      "time" : {
+        "start" : 1609333934267,
+        "stop" : 1609333934267,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "de1ed76828bfdffd",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'module' object is not callable",
+      "time" : {
+        "start" : 1609333895653,
+        "stop" : 1609333895653,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "80977e4c39cacc07",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'module' object is not callable",
+      "time" : {
+        "start" : 1609212741372,
+        "stop" : 1609212741372,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "86fbf60edb8dc3b8",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'module' object is not callable",
+      "time" : {
+        "start" : 1609210610695,
+        "stop" : 1609210610695,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "last", "run(order=-1)", "@pytest.mark.usefixtures('refresh_page')" ]
+  },
+  "source" : "e3c6aa18f7786a19.json",
+  "parameterValues" : [ ]
+}

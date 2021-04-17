@@ -1,0 +1,87 @@
+{
+  "uid" : "ac3c0dc5f5792d58",
+  "name" : "test_login_failed[data2]",
+  "fullName" : "cases.test_login.TestLogin#test_login_failed",
+  "historyId" : "daee70692129a544e4ece7a1edb1fbca",
+  "time" : {
+    "start" : 1609584524679,
+    "stop" : 1609584525256,
+    "duration" : 577
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "handler",
+    "time" : {
+      "start" : 1609584511328,
+      "stop" : 1609584523132,
+      "duration" : 11804
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1609584526696,
+      "stop" : 1609584532658,
+      "duration" : 5962
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200718ELAI"
+  }, {
+    "name" : "thread",
+    "value" : "12012-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录功能-正常登录-密码为空', 'username': '财友qfy46559', 'password': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac3c0dc5f5792d58.json",
+  "parameterValues" : [ "{'name': '登录功能-正常登录-密码为空', 'username': '财友qfy46559', 'password': ''}" ]
+}

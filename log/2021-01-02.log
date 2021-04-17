@@ -1,0 +1,409 @@
+2021-01-02 00:19:33,137 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-02_00_19_20.png
+2021-01-02 00:27:35,005 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-02_00_27_34.png
+2021-01-02 00:28:52,769 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-02_00_28_51.png
+2021-01-02 00:30:14,179 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-02_00_30_13.png
+2021-01-02 20:17:58,262 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:17:58,268 - root - INFO - 登录测试-异常数据
+2021-01-02 20:17:58,852 - root - INFO - 期望值：True
+2021-01-02 20:17:58,941 - root - INFO - 实际值：True
+2021-01-02 20:17:58,942 - root - INFO - 出现异常
+2021-01-02 20:17:58,943 - root - INFO - 'LoginPage' object has no attribute 'is_accout_login_text_exist'
+2021-01-02 20:17:58,955 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:17:58,956 - root - INFO - 登录测试-异常数据
+2021-01-02 20:17:59,593 - root - INFO - 期望值：True
+2021-01-02 20:17:59,639 - root - INFO - 实际值：True
+2021-01-02 20:17:59,667 - root - INFO - 出现异常
+2021-01-02 20:17:59,668 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 20:17:59,676 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:17:59,677 - root - INFO - 登录测试-异常数据
+2021-01-02 20:18:00,187 - root - INFO - 期望值：True
+2021-01-02 20:18:00,222 - root - INFO - 实际值：True
+2021-01-02 20:18:00,223 - root - INFO - 出现异常
+2021-01-02 20:18:00,224 - root - INFO - 'LoginPage' object has no attribute 'is_accout_login_text_exist'
+2021-01-02 20:18:00,234 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:18:00,235 - root - INFO - 登录测试-异常数据
+2021-01-02 20:18:00,910 - root - INFO - 期望值：True
+2021-01-02 20:18:00,940 - root - INFO - 实际值：True
+2021-01-02 20:18:00,968 - root - INFO - 出现异常
+2021-01-02 20:18:00,969 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 20:18:00,976 - root - INFO - 执行test_login_success测试用例
+2021-01-02 20:18:00,977 - root - INFO - 进入 test_login_success methon
+2021-01-02 20:18:00,978 - root - INFO - 登录测试—正常数据
+2021-01-02 20:18:08,441 - root - INFO - 期望值：True
+2021-01-02 20:19:34,680 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:19:34,682 - root - INFO - 登录测试-异常数据
+2021-01-02 20:19:35,239 - root - INFO - 期望值：True
+2021-01-02 20:19:35,340 - root - INFO - 实际值：True
+2021-01-02 20:19:35,341 - root - INFO - 出现异常
+2021-01-02 20:19:35,342 - root - INFO - 'LoginPage' object has no attribute 'is_accout_login_text_exist'
+2021-01-02 20:19:35,353 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:19:35,354 - root - INFO - 登录测试-异常数据
+2021-01-02 20:19:36,007 - root - INFO - 期望值：True
+2021-01-02 20:19:36,058 - root - INFO - 实际值：True
+2021-01-02 20:19:36,085 - root - INFO - 出现异常
+2021-01-02 20:19:36,086 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 20:19:36,095 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:19:36,096 - root - INFO - 登录测试-异常数据
+2021-01-02 20:19:36,613 - root - INFO - 期望值：True
+2021-01-02 20:19:36,649 - root - INFO - 实际值：True
+2021-01-02 20:19:36,652 - root - INFO - 出现异常
+2021-01-02 20:19:36,653 - root - INFO - 'LoginPage' object has no attribute 'is_accout_login_text_exist'
+2021-01-02 20:19:36,662 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:19:36,663 - root - INFO - 登录测试-异常数据
+2021-01-02 20:19:37,327 - root - INFO - 期望值：True
+2021-01-02 20:19:37,359 - root - INFO - 实际值：True
+2021-01-02 20:19:37,387 - root - INFO - 出现异常
+2021-01-02 20:19:37,388 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 20:19:37,396 - root - INFO - 执行test_login_success测试用例
+2021-01-02 20:19:37,397 - root - INFO - 进入 test_login_success methon
+2021-01-02 20:19:37,397 - root - INFO - 登录测试—正常数据
+2021-01-02 20:19:50,184 - root - INFO - 期望值：True
+2021-01-02 20:24:32,702 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:24:32,703 - root - INFO - 登录测试-异常数据
+2021-01-02 20:24:38,325 - root - INFO - 期望值：True
+2021-01-02 20:25:31,882 - root - INFO - 实际值：True
+2021-01-02 20:41:24,756 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:41:24,757 - root - INFO - 登录测试-异常数据
+2021-01-02 20:41:25,397 - root - INFO - 期望值：True
+2021-01-02 20:41:25,475 - root - INFO - 实际值：True
+2021-01-02 20:41:25,520 - root - INFO - 出现异常
+2021-01-02 20:41:25,521 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 20:41:25,532 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:41:25,533 - root - INFO - 登录测试-异常数据
+2021-01-02 20:41:26,201 - root - INFO - 期望值：True
+2021-01-02 20:41:26,250 - root - INFO - 实际值：True
+2021-01-02 20:41:26,278 - root - INFO - 出现异常
+2021-01-02 20:41:26,279 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 20:41:26,287 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:41:26,288 - root - INFO - 登录测试-异常数据
+2021-01-02 20:41:26,793 - root - INFO - 期望值：True
+2021-01-02 20:41:26,834 - root - INFO - 实际值：True
+2021-01-02 20:41:26,868 - root - INFO - 出现异常
+2021-01-02 20:41:26,869 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 20:41:26,878 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:41:26,879 - root - INFO - 登录测试-异常数据
+2021-01-02 20:41:27,636 - root - INFO - 期望值：True
+2021-01-02 20:41:27,668 - root - INFO - 实际值：True
+2021-01-02 20:41:27,699 - root - INFO - 出现异常
+2021-01-02 20:41:27,699 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 20:41:27,707 - root - INFO - 执行test_login_success测试用例
+2021-01-02 20:41:27,708 - root - INFO - 进入 test_login_success methon
+2021-01-02 20:41:27,709 - root - INFO - 登录测试—正常数据
+2021-01-02 20:41:34,006 - root - INFO - 期望值：True
+2021-01-02 20:51:13,858 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:51:13,859 - root - INFO - 登录测试-异常数据
+2021-01-02 20:51:14,411 - root - INFO - 期望值：True
+2021-01-02 20:51:14,495 - root - INFO - 实际值：True
+2021-01-02 20:51:14,537 - root - INFO - 出现异常
+2021-01-02 20:51:14,538 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 20:51:14,547 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:51:14,548 - root - INFO - 登录测试-异常数据
+2021-01-02 20:51:15,071 - root - INFO - 期望值：True
+2021-01-02 20:51:15,118 - root - INFO - 实际值：True
+2021-01-02 20:51:15,147 - root - INFO - 出现异常
+2021-01-02 20:51:15,148 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 20:51:15,157 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:51:15,158 - root - INFO - 登录测试-异常数据
+2021-01-02 20:51:15,889 - root - INFO - 期望值：True
+2021-01-02 20:51:15,926 - root - INFO - 实际值：True
+2021-01-02 20:51:15,970 - root - INFO - 出现异常
+2021-01-02 20:51:15,971 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 20:51:15,981 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 20:51:15,983 - root - INFO - 登录测试-异常数据
+2021-01-02 20:51:16,719 - root - INFO - 期望值：True
+2021-01-02 20:51:16,747 - root - INFO - 实际值：True
+2021-01-02 20:51:16,778 - root - INFO - 出现异常
+2021-01-02 20:51:16,779 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 20:51:16,787 - root - INFO - 执行test_login_success测试用例
+2021-01-02 20:51:16,788 - root - INFO - 进入 test_login_success methon
+2021-01-02 20:51:16,789 - root - INFO - 登录测试—正常数据
+2021-01-02 20:51:25,018 - root - INFO - 期望值：True
+2021-01-02 20:51:25,099 - root - INFO - 实际值：True
+2021-01-02 20:51:25,146 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-02 20:51:25,940 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-02_20_51_25.png
+2021-01-02 21:15:05,008 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:15:05,012 - root - INFO - 登录测试-异常数据
+2021-01-02 21:15:05,598 - root - INFO - 期望值：True
+2021-01-02 21:15:05,679 - root - INFO - 实际值：True
+2021-01-02 21:15:05,725 - root - INFO - 出现异常
+2021-01-02 21:15:05,726 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 21:15:05,738 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:15:05,739 - root - INFO - 登录测试-异常数据
+2021-01-02 21:15:06,423 - root - INFO - 期望值：True
+2021-01-02 21:15:06,472 - root - INFO - 实际值：True
+2021-01-02 21:15:06,500 - root - INFO - 出现异常
+2021-01-02 21:15:06,501 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 21:15:06,510 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:15:06,511 - root - INFO - 登录测试-异常数据
+2021-01-02 21:15:07,067 - root - INFO - 期望值：True
+2021-01-02 21:15:07,112 - root - INFO - 实际值：True
+2021-01-02 21:15:07,150 - root - INFO - 出现异常
+2021-01-02 21:15:07,151 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 21:15:07,159 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:15:07,160 - root - INFO - 登录测试-异常数据
+2021-01-02 21:15:07,889 - root - INFO - 期望值：True
+2021-01-02 21:15:07,918 - root - INFO - 实际值：True
+2021-01-02 21:15:07,945 - root - INFO - 出现异常
+2021-01-02 21:15:07,947 - root - INFO - list indices must be integers or slices, not str
+2021-01-02 21:15:07,955 - root - INFO - 执行test_login_success测试用例
+2021-01-02 21:15:07,956 - root - INFO - 进入 test_login_success methon
+2021-01-02 21:15:07,957 - root - INFO - 登录测试—正常数据
+2021-01-02 21:15:16,472 - root - INFO - 期望值：True
+2021-01-02 21:15:16,536 - root - INFO - 实际值：True
+2021-01-02 21:15:16,581 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-02 21:15:17,375 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-02_21_15_16.png
+2021-01-02 21:17:42,069 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:17:42,071 - root - INFO - 登录测试-异常数据
+2021-01-02 21:17:54,924 - root - INFO - 期望值：True
+2021-01-02 21:18:14,081 - root - INFO - 实际值：True
+2021-01-02 21:22:39,623 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:22:39,624 - root - INFO - 登录测试-异常数据
+2021-01-02 21:22:40,197 - root - INFO - 期望值：True
+2021-01-02 21:22:40,280 - root - INFO - 实际值：True
+2021-01-02 21:22:40,318 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-02 21:22:40,996 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为空时截图-2021-01-02_21_22_40.png
+2021-01-02 21:22:41,005 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:22:41,006 - root - INFO - 登录测试-异常数据
+2021-01-02 21:22:41,590 - root - INFO - 期望值：True
+2021-01-02 21:22:41,638 - root - INFO - 实际值：True
+2021-01-02 21:22:41,665 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-02 21:22:42,271 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-02_21_22_41.png
+2021-01-02 21:22:42,279 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:22:42,280 - root - INFO - 登录测试-异常数据
+2021-01-02 21:22:42,732 - root - INFO - 期望值：True
+2021-01-02 21:22:42,764 - root - INFO - 实际值：True
+2021-01-02 21:22:42,796 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-02 21:22:43,439 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为空时截图-2021-01-02_21_22_42.png
+2021-01-02 21:22:43,447 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:22:43,448 - root - INFO - 登录测试-异常数据
+2021-01-02 21:22:44,026 - root - INFO - 期望值：True
+2021-01-02 21:22:44,051 - root - INFO - 实际值：True
+2021-01-02 21:22:44,076 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-02 21:22:44,665 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-02_21_22_44.png
+2021-01-02 21:22:44,673 - root - INFO - 执行test_login_success测试用例
+2021-01-02 21:22:44,674 - root - INFO - 进入 test_login_success methon
+2021-01-02 21:22:44,675 - root - INFO - 登录测试—正常数据
+2021-01-02 21:22:52,239 - root - INFO - 期望值：True
+2021-01-02 21:22:52,336 - root - INFO - 实际值：True
+2021-01-02 21:22:52,369 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-02 21:22:53,075 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-02_21_22_52.png
+2021-01-02 21:25:55,277 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:25:55,278 - root - INFO - 登录测试-异常数据
+2021-01-02 21:26:01,030 - root - INFO - 期望值：True
+2021-01-02 21:26:01,092 - root - INFO - 实际值：True
+2021-01-02 21:26:01,133 - root - INFO - 出现异常
+2021-01-02 21:26:01,134 - root - INFO - 'dict' object has no attribute 'name'
+2021-01-02 21:26:01,144 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:26:01,145 - root - INFO - 登录测试-异常数据
+2021-01-02 21:26:06,673 - root - INFO - 期望值：True
+2021-01-02 21:26:06,721 - root - INFO - 实际值：True
+2021-01-02 21:26:06,750 - root - INFO - 出现异常
+2021-01-02 21:26:06,751 - root - INFO - 'dict' object has no attribute 'name'
+2021-01-02 21:26:06,759 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:26:06,761 - root - INFO - 登录测试-异常数据
+2021-01-02 21:26:12,121 - root - INFO - 期望值：True
+2021-01-02 21:26:12,148 - root - INFO - 实际值：True
+2021-01-02 21:26:12,176 - root - INFO - 出现异常
+2021-01-02 21:26:12,177 - root - INFO - 'dict' object has no attribute 'name'
+2021-01-02 21:26:12,186 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:26:12,187 - root - INFO - 登录测试-异常数据
+2021-01-02 21:26:17,600 - root - INFO - 期望值：True
+2021-01-02 21:26:17,641 - root - INFO - 实际值：True
+2021-01-02 21:26:17,676 - root - INFO - 出现异常
+2021-01-02 21:26:17,677 - root - INFO - 'dict' object has no attribute 'name'
+2021-01-02 21:26:17,690 - root - INFO - 执行test_login_success测试用例
+2021-01-02 21:26:17,691 - root - INFO - 进入 test_login_success methon
+2021-01-02 21:26:17,692 - root - INFO - 登录测试—正常数据
+2021-01-02 21:26:34,883 - root - INFO - 期望值：True
+2021-01-02 21:26:54,926 - root - INFO - 实际值：False
+2021-01-02 21:27:15,073 - root - INFO - 测试执行完毕，测试结果：=======fail======
+2021-01-02 21:27:15,080 - root - INFO - assert False
+ +  where False = <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x03B98990>>()
+ +    where <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x03B98990>> = <pages.login_page.LoginPage object at 0x03B98990>.is_logout_text_exist
+2021-01-02 21:27:19,940 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录失败并截图-2021-01-02_21_27_15.png
+2021-01-02 21:42:51,383 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:42:51,384 - root - INFO - 登录测试-异常数据
+2021-01-02 21:42:52,057 - root - INFO - 期望值：True
+2021-01-02 21:42:52,182 - root - INFO - 实际值：True
+2021-01-02 21:42:52,227 - root - INFO - 出现异常
+2021-01-02 21:42:52,231 - root - INFO - 0
+2021-01-02 21:42:52,239 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:42:52,240 - root - INFO - 登录测试-异常数据
+2021-01-02 21:42:52,925 - root - INFO - 期望值：True
+2021-01-02 21:42:52,981 - root - INFO - 实际值：True
+2021-01-02 21:42:53,010 - root - INFO - 出现异常
+2021-01-02 21:42:53,012 - root - INFO - 0
+2021-01-02 21:42:53,022 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:42:53,023 - root - INFO - 登录测试-异常数据
+2021-01-02 21:42:53,688 - root - INFO - 期望值：True
+2021-01-02 21:42:53,735 - root - INFO - 实际值：True
+2021-01-02 21:42:53,772 - root - INFO - 出现异常
+2021-01-02 21:42:53,773 - root - INFO - 0
+2021-01-02 21:42:53,786 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:42:53,787 - root - INFO - 登录测试-异常数据
+2021-01-02 21:42:54,572 - root - INFO - 期望值：True
+2021-01-02 21:42:54,603 - root - INFO - 实际值：True
+2021-01-02 21:42:54,634 - root - INFO - 出现异常
+2021-01-02 21:42:54,635 - root - INFO - 0
+2021-01-02 21:42:54,643 - root - INFO - 执行test_login_success测试用例
+2021-01-02 21:42:54,644 - root - INFO - 进入 test_login_success methon
+2021-01-02 21:42:54,646 - root - INFO - 登录测试—正常数据
+2021-01-02 21:43:04,204 - root - INFO - 期望值：True
+2021-01-02 21:43:04,275 - root - INFO - 实际值：True
+2021-01-02 21:43:04,316 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-02 21:43:05,232 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-02_21_43_04.png
+2021-01-02 21:44:28,931 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:44:28,935 - root - INFO - 登录测试-异常数据
+2021-01-02 21:44:29,502 - root - INFO - 期望值：True
+2021-01-02 21:44:29,588 - root - INFO - 实际值：True
+2021-01-02 21:44:29,631 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:44:30,311 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为空时截图-2021-01-02_21_44_29.png
+2021-01-02 21:44:30,319 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:44:30,320 - root - INFO - 登录测试-异常数据
+2021-01-02 21:44:30,878 - root - INFO - 期望值：True
+2021-01-02 21:44:30,928 - root - INFO - 实际值：True
+2021-01-02 21:44:30,956 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:44:31,573 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-02_21_44_30.png
+2021-01-02 21:44:31,587 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:44:31,588 - root - INFO - 登录测试-异常数据
+2021-01-02 21:44:32,076 - root - INFO - 期望值：True
+2021-01-02 21:44:32,111 - root - INFO - 实际值：True
+2021-01-02 21:44:32,147 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:44:32,810 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为空时截图-2021-01-02_21_44_32.png
+2021-01-02 21:44:32,819 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:44:32,820 - root - INFO - 登录测试-异常数据
+2021-01-02 21:44:33,561 - root - INFO - 期望值：True
+2021-01-02 21:44:33,591 - root - INFO - 实际值：True
+2021-01-02 21:44:33,617 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:44:34,218 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-02_21_44_33.png
+2021-01-02 21:44:34,227 - root - INFO - 执行test_login_success测试用例
+2021-01-02 21:44:34,228 - root - INFO - 进入 test_login_success methon
+2021-01-02 21:44:34,229 - root - INFO - 登录测试—正常数据
+2021-01-02 21:44:41,823 - root - INFO - 期望值：True
+2021-01-02 21:44:41,918 - root - INFO - 实际值：True
+2021-01-02 21:44:41,947 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-02 21:44:42,757 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-02_21_44_41.png
+2021-01-02 21:47:45,273 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:47:45,274 - root - INFO - 登录测试-异常数据
+2021-01-02 21:47:45,849 - root - INFO - 期望值：True
+2021-01-02 21:47:45,943 - root - INFO - 实际值：True
+2021-01-02 21:47:45,981 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:47:46,651 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为空时截图-2021-01-02_21_47_45.png
+2021-01-02 21:47:46,660 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:47:46,661 - root - INFO - 登录测试-异常数据
+2021-01-02 21:47:47,216 - root - INFO - 期望值：True
+2021-01-02 21:47:47,262 - root - INFO - 实际值：True
+2021-01-02 21:47:47,287 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:47:47,893 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-02_21_47_47.png
+2021-01-02 21:47:47,902 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:47:47,909 - root - INFO - 登录测试-异常数据
+2021-01-02 21:47:48,510 - root - INFO - 期望值：True
+2021-01-02 21:47:48,556 - root - INFO - 实际值：True
+2021-01-02 21:47:48,606 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:47:49,293 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为空时截图-2021-01-02_21_47_48.png
+2021-01-02 21:47:49,302 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:47:49,303 - root - INFO - 登录测试-异常数据
+2021-01-02 21:47:49,898 - root - INFO - 期望值：True
+2021-01-02 21:47:49,928 - root - INFO - 实际值：True
+2021-01-02 21:47:49,954 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:47:50,582 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-02_21_47_49.png
+2021-01-02 21:47:50,590 - root - INFO - 执行test_login_success测试用例
+2021-01-02 21:47:50,591 - root - INFO - 进入 test_login_success methon
+2021-01-02 21:47:50,592 - root - INFO - 登录测试—正常数据
+2021-01-02 21:48:03,925 - root - INFO - 期望值：True
+2021-01-02 21:48:03,981 - root - INFO - 实际值：True
+2021-01-02 21:48:04,016 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-02 21:48:05,581 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-02_21_48_04.png
+2021-01-02 21:49:38,146 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:49:38,147 - root - INFO - 登录测试-异常数据
+2021-01-02 21:49:38,722 - root - INFO - 期望值：True
+2021-01-02 21:49:38,804 - root - INFO - 实际值：True
+2021-01-02 21:49:38,849 - root - INFO - 出现异常
+2021-01-02 21:49:38,850 - root - INFO - values() takes no arguments (1 given)
+2021-01-02 21:49:38,861 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:49:38,862 - root - INFO - 登录测试-异常数据
+2021-01-02 21:49:39,502 - root - INFO - 期望值：True
+2021-01-02 21:49:39,556 - root - INFO - 实际值：True
+2021-01-02 21:49:39,582 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:49:40,207 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-02_21_49_39.png
+2021-01-02 21:49:40,217 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:49:40,218 - root - INFO - 登录测试-异常数据
+2021-01-02 21:49:40,689 - root - INFO - 期望值：True
+2021-01-02 21:49:40,726 - root - INFO - 实际值：True
+2021-01-02 21:49:40,767 - root - INFO - 出现异常
+2021-01-02 21:49:40,767 - root - INFO - values() takes no arguments (1 given)
+2021-01-02 21:49:40,779 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:49:40,780 - root - INFO - 登录测试-异常数据
+2021-01-02 21:49:41,465 - root - INFO - 期望值：True
+2021-01-02 21:49:41,493 - root - INFO - 实际值：True
+2021-01-02 21:49:41,521 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:49:42,129 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-02_21_49_41.png
+2021-01-02 21:49:42,136 - root - INFO - 执行test_login_success测试用例
+2021-01-02 21:49:42,138 - root - INFO - 进入 test_login_success methon
+2021-01-02 21:49:42,138 - root - INFO - 登录测试—正常数据
+2021-01-02 21:49:50,273 - root - INFO - 期望值：True
+2021-01-02 21:49:50,338 - root - INFO - 实际值：True
+2021-01-02 21:49:50,375 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-02 21:49:51,174 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-02_21_49_50.png
+2021-01-02 21:53:02,811 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:53:02,813 - root - INFO - 登录测试-异常数据
+2021-01-02 21:53:03,376 - root - INFO - 期望值：True
+2021-01-02 21:53:03,462 - root - INFO - 实际值：True
+2021-01-02 21:53:03,613 - root - INFO - 出现异常
+2021-01-02 21:53:03,614 - root - INFO - 'dict_values' object does not support indexing
+2021-01-02 21:53:03,627 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:53:03,628 - root - INFO - 登录测试-异常数据
+2021-01-02 21:53:04,253 - root - INFO - 期望值：True
+2021-01-02 21:53:04,325 - root - INFO - 实际值：True
+2021-01-02 21:53:04,365 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:53:05,022 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-02_21_53_04.png
+2021-01-02 21:53:05,031 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:53:05,032 - root - INFO - 登录测试-异常数据
+2021-01-02 21:53:05,794 - root - INFO - 期望值：True
+2021-01-02 21:53:05,841 - root - INFO - 实际值：True
+2021-01-02 21:53:05,909 - root - INFO - 出现异常
+2021-01-02 21:53:05,910 - root - INFO - 'dict_values' object does not support indexing
+2021-01-02 21:53:05,923 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:53:05,924 - root - INFO - 登录测试-异常数据
+2021-01-02 21:53:06,623 - root - INFO - 期望值：True
+2021-01-02 21:53:06,650 - root - INFO - 实际值：True
+2021-01-02 21:53:06,677 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:53:07,308 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-02_21_53_06.png
+2021-01-02 21:53:07,317 - root - INFO - 执行test_login_success测试用例
+2021-01-02 21:53:07,318 - root - INFO - 进入 test_login_success methon
+2021-01-02 21:53:07,319 - root - INFO - 登录测试—正常数据
+2021-01-02 21:53:16,275 - root - INFO - 期望值：True
+2021-01-02 21:53:16,381 - root - INFO - 实际值：True
+2021-01-02 21:53:16,422 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-02 21:53:17,264 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-02_21_53_16.png
+2021-01-02 21:54:12,659 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:54:12,660 - root - INFO - 登录测试-异常数据
+2021-01-02 21:54:18,220 - root - INFO - 期望值：True
+2021-01-02 21:54:18,332 - root - INFO - 实际值：True
+2021-01-02 21:54:18,410 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:54:19,336 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为空时截图-2021-01-02_21_54_18.png
+2021-01-02 21:54:19,345 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:54:19,346 - root - INFO - 登录测试-异常数据
+2021-01-02 21:54:19,970 - root - INFO - 期望值：True
+2021-01-02 21:54:20,020 - root - INFO - 实际值：True
+2021-01-02 21:54:20,050 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:54:20,666 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-02_21_54_20.png
+2021-01-02 21:54:20,676 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:54:20,677 - root - INFO - 登录测试-异常数据
+2021-01-02 21:54:21,325 - root - INFO - 期望值：True
+2021-01-02 21:54:21,367 - root - INFO - 实际值：True
+2021-01-02 21:54:21,411 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:54:22,134 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为空时截图-2021-01-02_21_54_21.png
+2021-01-02 21:54:22,143 - root - INFO - 执行test_login_failed测试用例
+2021-01-02 21:54:22,144 - root - INFO - 登录测试-异常数据
+2021-01-02 21:54:22,736 - root - INFO - 期望值：True
+2021-01-02 21:54:22,763 - root - INFO - 实际值：True
+2021-01-02 21:54:22,787 - root - INFO - {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-02 21:54:23,435 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-02_21_54_22.png
+2021-01-02 21:54:23,443 - root - INFO - 执行test_login_success测试用例
+2021-01-02 21:54:23,444 - root - INFO - 进入 test_login_success methon
+2021-01-02 21:54:23,445 - root - INFO - 登录测试—正常数据
+2021-01-02 21:54:31,030 - root - INFO - 期望值：True
+2021-01-02 21:54:31,087 - root - INFO - 实际值：True
+2021-01-02 21:54:31,116 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-02 21:54:31,847 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-02_21_54_31.png

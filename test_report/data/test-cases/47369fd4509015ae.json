@@ -1,0 +1,104 @@
+{
+  "uid" : "47369fd4509015ae",
+  "name" : "test_login_success",
+  "fullName" : "cases.test_login.TestLogin#test_login_success",
+  "historyId" : "4de4eac7aa5437331edc4ae996ff58ee",
+  "time" : {
+    "start" : 1609341348351,
+    "stop" : 1609341389527,
+    "duration" : 41176
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x041FA750>>()\n +    where <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x041FA750>> = <pages.login_page.LoginPage object at 0x041FA750>.is_logout_text_exist",
+  "statusTrace" : "self = <cases.test_login.TestLogin object at 0x041FA1F0>\nhandler = (<selenium.webdriver.chrome.webdriver.WebDriver (session=\"be49f0c8f116454c56db8e9cdffedb14\")>, <pages.login_page.LoginPage object at 0x041FA750>)\n\n    def test_login_success(self,handler):\n        logger.info('进入 test_login_success methon')\n        logger.info(\"登录测试—正常数据\")\n        # 输入正确的用户名，密码进行登录，其中handler【1】表示lg（即，driver.get(login_url) ）\n        handler[1].login(success_data['username'],success_data['password'])\n        logger.info('期望值：{}'.format(True))\n        logger.info('实际值：{}'.format(handler[1].is_logout_text_exist()))\n>       assert handler[1].is_logout_text_exist()  #登录成功后进行判断是否登录成功\nE       assert False\nE        +  where False = <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x041FA750>>()\nE        +    where <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x041FA750>> = <pages.login_page.LoginPage object at 0x041FA750>.is_logout_text_exist\n\ncases\\test_login.py:25: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "handler",
+    "time" : {
+      "start" : 1609341336172,
+      "stop" : 1609341348345,
+      "duration" : 12173
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False\n +  where False = <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x041FA750>>()\n +    where <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x041FA750>> = <pages.login_page.LoginPage object at 0x041FA750>.is_logout_text_exist",
+    "statusTrace" : "self = <cases.test_login.TestLogin object at 0x041FA1F0>\nhandler = (<selenium.webdriver.chrome.webdriver.WebDriver (session=\"be49f0c8f116454c56db8e9cdffedb14\")>, <pages.login_page.LoginPage object at 0x041FA750>)\n\n    def test_login_success(self,handler):\n        logger.info('进入 test_login_success methon')\n        logger.info(\"登录测试—正常数据\")\n        # 输入正确的用户名，密码进行登录，其中handler【1】表示lg（即，driver.get(login_url) ）\n        handler[1].login(success_data['username'],success_data['password'])\n        logger.info('期望值：{}'.format(True))\n        logger.info('实际值：{}'.format(handler[1].is_logout_text_exist()))\n>       assert handler[1].is_logout_text_exist()  #登录成功后进行判断是否登录成功\nE       assert False\nE        +  where False = <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x041FA750>>()\nE        +    where <bound method LoginPage.is_logout_text_exist of <pages.login_page.LoginPage object at 0x041FA750>> = <pages.login_page.LoginPage object at 0x041FA750>.is_logout_text_exist\n\ncases\\test_login.py:25: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a9d62d78c601432b",
+      "name" : "log",
+      "source" : "a9d62d78c601432b.txt",
+      "type" : "text/plain",
+      "size" : 42725
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1609341389611,
+      "stop" : 1609341391880,
+      "duration" : 2269
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200718ELAI"
+  }, {
+    "name" : "thread",
+    "value" : "12492-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "47369fd4509015ae.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,180 @@
+2021-01-06 16:21:40,801 - root - INFO - 开始执行jrj web项目自动化测试
+2021-01-06 16:21:54,791 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 16:21:54,793 - root - INFO - 登录测试-异常数据
+2021-01-06 16:21:54,794 - root - INFO - 准备登录
+2021-01-06 16:21:55,710 - root - INFO - 期望值：True
+2021-01-06 16:21:55,713 - root - INFO - 出现异常
+2021-01-06 16:21:55,715 - root - INFO - 'LoginPage' object has no attribute 'get_account_login_text'
+2021-01-06 16:21:59,454 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 16:21:59,456 - root - INFO - 登录测试-异常数据
+2021-01-06 16:21:59,463 - root - INFO - 准备登录
+2021-01-06 16:22:00,069 - root - INFO - 期望值：True
+2021-01-06 16:22:00,138 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.06896
+2021-01-06 16:22:00,186 - root - INFO - 实际值：账号或密码错误
+2021-01-06 16:22:00,188 - root - INFO - 准备断言
+2021-01-06 16:22:00,221 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.031981
+2021-01-06 16:22:00,253 - root - INFO - 登录功能-异常登录-用户名错误, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-06 16:22:01,029 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-06_16_22_00.png
+2021-01-06 16:22:04,540 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 16:22:04,543 - root - INFO - 登录测试-异常数据
+2021-01-06 16:22:04,545 - root - INFO - 准备登录
+2021-01-06 16:22:04,953 - root - INFO - 期望值：True
+2021-01-06 16:22:04,957 - root - INFO - 出现异常
+2021-01-06 16:22:04,958 - root - INFO - 'LoginPage' object has no attribute 'get_account_login_text'
+2021-01-06 16:22:08,530 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 16:22:08,531 - root - INFO - 登录测试-异常数据
+2021-01-06 16:22:08,532 - root - INFO - 准备登录
+2021-01-06 16:22:09,147 - root - INFO - 期望值：True
+2021-01-06 16:22:09,189 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.040976
+2021-01-06 16:22:09,229 - root - INFO - 实际值：账号或密码错误
+2021-01-06 16:22:09,231 - root - INFO - 准备断言
+2021-01-06 16:22:09,261 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.027984
+2021-01-06 16:22:09,286 - root - INFO - 登录功能-异常登录-密码错误, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-06 16:22:09,910 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-06_16_22_09.png
+2021-01-06 16:22:13,365 - root - INFO - 执行test_login_success测试用例
+2021-01-06 16:22:13,367 - root - INFO - 进入 test_login_success methon
+2021-01-06 16:22:13,368 - root - INFO - 登录测试—正常数据
+2021-01-06 16:22:13,370 - root - INFO - 准备登录
+2021-01-06 16:22:22,889 - root - INFO - 期望值：退出
+2021-01-06 16:22:22,957 - root - INFO - end total time of waiting for ('xpath', '//*[@id="logout_ok"]') bisible is 0.065962
+2021-01-06 16:22:23,063 - root - INFO - 实际值：退出
+2021-01-06 16:22:23,064 - root - INFO - 准备断言
+2021-01-06 16:22:23,105 - root - INFO - end total time of waiting for ('xpath', '//*[@id="logout_ok"]') bisible is 0.038977
+2021-01-06 16:22:23,190 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-06 16:22:23,929 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-06_16_22_23.png
+2021-01-06 16:22:34,005 - root - INFO - jrj web 自动化执行结束
+2021-01-06 16:55:32,427 - root - INFO - 开始执行jrj web项目自动化测试
+2021-01-06 16:55:43,483 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 16:55:43,484 - root - INFO - 登录测试-异常数据
+2021-01-06 16:55:43,486 - root - INFO - 准备登录
+2021-01-06 16:55:44,816 - root - INFO - 期望值：True
+2021-01-06 16:55:44,822 - root - INFO - 出现异常
+2021-01-06 16:55:44,823 - root - INFO - 'LoginPage' object has no attribute 'get_account_login_text'
+2021-01-06 16:55:48,955 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 16:55:48,956 - root - INFO - 登录测试-异常数据
+2021-01-06 16:55:48,958 - root - INFO - 准备登录
+2021-01-06 16:55:49,846 - root - INFO - 期望值：True
+2021-01-06 16:55:49,939 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.089949
+2021-01-06 16:55:50,036 - root - INFO - 实际值：账号或密码错误
+2021-01-06 16:55:50,038 - root - INFO - 准备断言
+2021-01-06 16:55:50,085 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.045973
+2021-01-06 16:55:50,127 - root - INFO - 登录功能-异常登录-用户名错误, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-06 16:55:50,949 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-06_16_55_50.png
+2021-01-06 16:55:54,809 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 16:55:54,810 - root - INFO - 登录测试-异常数据
+2021-01-06 16:55:54,813 - root - INFO - 准备登录
+2021-01-06 16:55:55,489 - root - INFO - 期望值：True
+2021-01-06 16:55:55,492 - root - INFO - 出现异常
+2021-01-06 16:55:55,493 - root - INFO - 'LoginPage' object has no attribute 'get_account_login_text'
+2021-01-06 16:55:59,308 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 16:55:59,310 - root - INFO - 登录测试-异常数据
+2021-01-06 16:55:59,311 - root - INFO - 准备登录
+2021-01-06 16:56:00,908 - root - INFO - 期望值：True
+2021-01-06 16:56:01,000 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.08995
+2021-01-06 16:56:01,084 - root - INFO - 实际值：账号或密码错误
+2021-01-06 16:56:01,085 - root - INFO - 准备断言
+2021-01-06 16:56:01,130 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.043975
+2021-01-06 16:56:01,205 - root - INFO - 登录功能-异常登录-密码错误, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-06 16:56:01,993 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-06_16_56_01.png
+2021-01-06 16:56:06,202 - root - INFO - 执行test_login_success测试用例
+2021-01-06 16:56:06,203 - root - INFO - 进入 test_login_success methon
+2021-01-06 16:56:06,204 - root - INFO - 登录测试—正常数据
+2021-01-06 16:56:06,215 - root - INFO - 准备登录
+2021-01-06 16:56:22,119 - root - INFO - 期望值：退出
+2021-01-06 16:56:22,583 - root - INFO - end total time of waiting for ('xpath', '//*[@id="logout_ok"]') bisible is 0.463735
+2021-01-06 16:56:22,718 - root - INFO - 实际值：退出
+2021-01-06 16:56:22,719 - root - INFO - 准备断言
+2021-01-06 16:56:22,847 - root - INFO - end total time of waiting for ('xpath', '//*[@id="logout_ok"]') bisible is 0.126928
+2021-01-06 16:56:23,046 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-06 16:56:24,156 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-06_16_56_23.png
+2021-01-06 16:56:44,015 - root - INFO - jrj web 自动化执行结束
+2021-01-06 17:21:35,691 - root - INFO - 开始执行jrj web项目自动化测试
+2021-01-06 17:21:43,382 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 17:21:43,385 - root - INFO - 登录测试-异常数据
+2021-01-06 17:21:43,387 - root - INFO - 准备登录
+2021-01-06 17:21:43,897 - root - INFO - 期望值：True
+2021-01-06 17:21:43,898 - root - INFO - 出现异常
+2021-01-06 17:21:43,899 - root - INFO - 'LoginPage' object has no attribute 'get_account_login_text'
+2021-01-06 17:21:47,499 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 17:21:47,500 - root - INFO - 登录测试-异常数据
+2021-01-06 17:21:47,502 - root - INFO - 准备登录
+2021-01-06 17:21:48,189 - root - INFO - 期望值：True
+2021-01-06 17:21:48,253 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.062965
+2021-01-06 17:21:48,295 - root - INFO - 实际值：账号或密码错误
+2021-01-06 17:21:48,296 - root - INFO - 准备断言
+2021-01-06 17:21:48,347 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.048973
+2021-01-06 17:21:48,379 - root - INFO - 登录功能-异常登录-用户名错误, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-06 17:21:49,076 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-06_17_21_48.png
+2021-01-06 17:21:52,610 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 17:21:52,612 - root - INFO - 登录测试-异常数据
+2021-01-06 17:21:52,613 - root - INFO - 准备登录
+2021-01-06 17:21:53,247 - root - INFO - 期望值：True
+2021-01-06 17:21:53,248 - root - INFO - 出现异常
+2021-01-06 17:21:53,250 - root - INFO - 'LoginPage' object has no attribute 'get_account_login_text'
+2021-01-06 17:21:56,918 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 17:21:56,919 - root - INFO - 登录测试-异常数据
+2021-01-06 17:21:56,921 - root - INFO - 准备登录
+2021-01-06 17:21:57,824 - root - INFO - 期望值：True
+2021-01-06 17:21:57,864 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.038977
+2021-01-06 17:21:57,909 - root - INFO - 实际值：账号或密码错误
+2021-01-06 17:21:57,910 - root - INFO - 准备断言
+2021-01-06 17:21:57,950 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.037979
+2021-01-06 17:21:58,015 - root - INFO - 登录功能-异常登录-密码错误, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-06 17:21:58,668 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-06_17_21_58.png
+2021-01-06 17:22:02,258 - root - INFO - 执行test_login_success测试用例
+2021-01-06 17:22:02,259 - root - INFO - 进入 test_login_success methon
+2021-01-06 17:22:02,260 - root - INFO - 登录测试—正常数据
+2021-01-06 17:22:02,261 - root - INFO - 准备登录
+2021-01-06 17:22:11,675 - root - INFO - 期望值：退出
+2021-01-06 17:22:11,745 - root - INFO - end total time of waiting for ('xpath', '//*[@id="logout_ok"]') bisible is 0.06996
+2021-01-06 17:22:11,797 - root - INFO - 实际值：退出
+2021-01-06 17:22:11,798 - root - INFO - 准备断言
+2021-01-06 17:22:11,860 - root - INFO - end total time of waiting for ('xpath', '//*[@id="logout_ok"]') bisible is 0.059966
+2021-01-06 17:22:11,900 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-06 17:22:12,597 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-06_17_22_11.png
+2021-01-06 17:22:22,364 - root - INFO - jrj web 自动化执行结束
+2021-01-06 17:34:12,240 - root - INFO - 开始执行jrj web项目自动化测试
+2021-01-06 17:34:20,277 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 17:34:20,278 - root - INFO - 登录测试-异常数据
+2021-01-06 17:34:20,280 - root - INFO - 准备登录
+2021-01-06 17:34:20,868 - root - INFO - 期望值：True
+2021-01-06 17:34:20,871 - root - INFO - 出现异常
+2021-01-06 17:34:20,871 - root - INFO - 'LoginPage' object has no attribute 'get_account_login_text'
+2021-01-06 17:34:24,360 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 17:34:24,361 - root - INFO - 登录测试-异常数据
+2021-01-06 17:34:24,363 - root - INFO - 准备登录
+2021-01-06 17:34:25,092 - root - INFO - 期望值：True
+2021-01-06 17:34:25,224 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.067963
+2021-01-06 17:34:25,294 - root - INFO - 实际值：账号或密码错误
+2021-01-06 17:34:25,295 - root - INFO - 准备断言
+2021-01-06 17:34:25,343 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.046973
+2021-01-06 17:34:25,379 - root - INFO - 登录功能-异常登录-用户名错误, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-06 17:34:26,090 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-06_17_34_25.png
+2021-01-06 17:34:29,646 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 17:34:29,649 - root - INFO - 登录测试-异常数据
+2021-01-06 17:34:29,650 - root - INFO - 准备登录
+2021-01-06 17:34:30,260 - root - INFO - 期望值：True
+2021-01-06 17:34:30,262 - root - INFO - 出现异常
+2021-01-06 17:34:30,263 - root - INFO - 'LoginPage' object has no attribute 'get_account_login_text'
+2021-01-06 17:34:33,839 - root - INFO - 执行test_login_failed测试用例
+2021-01-06 17:34:33,840 - root - INFO - 登录测试-异常数据
+2021-01-06 17:34:33,843 - root - INFO - 准备登录
+2021-01-06 17:34:34,566 - root - INFO - 期望值：True
+2021-01-06 17:34:34,611 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.042976
+2021-01-06 17:34:34,660 - root - INFO - 实际值：账号或密码错误
+2021-01-06 17:34:34,662 - root - INFO - 准备断言
+2021-01-06 17:34:34,703 - root - INFO - end total time of waiting for ('xpath', '/html/body/div[2]/div/div/form/div[2]/span') bisible is 0.039977
+2021-01-06 17:34:34,738 - root - INFO - 登录功能-异常登录-密码错误, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+2021-01-06 17:34:35,386 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-06_17_34_34.png
+2021-01-06 17:34:38,821 - root - INFO - 执行test_login_success测试用例
+2021-01-06 17:34:38,822 - root - INFO - 进入 test_login_success methon
+2021-01-06 17:34:38,823 - root - INFO - 登录测试—正常数据
+2021-01-06 17:34:38,825 - root - INFO - 准备登录
+2021-01-06 17:34:48,336 - root - INFO - 期望值：退出
+2021-01-06 17:34:48,424 - root - INFO - end total time of waiting for ('xpath', '//*[@id="logout_ok"]') bisible is 0.084951
+2021-01-06 17:34:48,495 - root - INFO - 实际值：退出
+2021-01-06 17:34:48,496 - root - INFO - 准备断言
+2021-01-06 17:34:48,560 - root - INFO - end total time of waiting for ('xpath', '//*[@id="logout_ok"]') bisible is 0.062965
+2021-01-06 17:34:48,598 - root - INFO - 测试用例执行完毕，测试结果： ======pass=====
+2021-01-06 17:34:49,376 - root - INFO - 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-06_17_34_48.png
+2021-01-06 17:35:00,435 - root - INFO - jrj web 自动化执行结束

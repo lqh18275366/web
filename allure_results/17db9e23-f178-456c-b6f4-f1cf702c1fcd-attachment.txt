@@ -1,0 +1,4 @@
+INFO     root:get_log.py:36 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\登录成功并截图-2021-01-02_00_28_51.png
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 DELETE http://127.0.0.1:62645/session/b91c74f4b618c6e2bcbf39494d1acb0b {"sessionId": "b91c74f4b618c6e2bcbf39494d1acb0b"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:62645 "DELETE /session/b91c74f4b618c6e2bcbf39494d1acb0b HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request

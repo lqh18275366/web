@@ -1,0 +1,479 @@
+{
+  "uid" : "665cca7c70c4e4cd",
+  "name" : "针对异常登陆的测试",
+  "fullName" : "cases.test_login.TestLogin#test_login_failed",
+  "historyId" : "dbeb2a97f887c27b8015e9253b5aa614",
+  "time" : {
+    "start" : 1610940159036,
+    "stop" : 1610940161058,
+    "duration" : 2022
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "refresh_page",
+    "time" : {
+      "start" : 1610940159035,
+      "stop" : 1610940159035,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "handler",
+    "time" : {
+      "start" : 1610940125410,
+      "stop" : 1610940143092,
+      "duration" : 17682
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：登录",
+      "time" : {
+        "start" : 1610940159046,
+        "stop" : 1610940159049,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "开始断言",
+      "time" : {
+        "start" : 1610940160219,
+        "stop" : 1610940160222,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "65483dd16e37b33",
+      "name" : "log",
+      "source" : "65483dd16e37b33.txt",
+      "type" : "text/plain",
+      "size" : 99883
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "refresh_page::0",
+    "time" : {
+      "start" : 1610940161063,
+      "stop" : 1610940164595,
+      "duration" : 3532
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "handler::0",
+    "time" : {
+      "start" : 1610940186755,
+      "stop" : 1610940194618,
+      "duration" : 7863
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "金融界web登录模块"
+  }, {
+    "name" : "story",
+    "value" : "登录模块-异常登陆"
+  }, {
+    "name" : "epic",
+    "value" : "金融界web自动化自测"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('refresh_page')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "PC-20200718ELAI"
+  }, {
+    "name" : "thread",
+    "value" : "10944-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'name': '登录功能-异常登录-密码错误', 'username': '财友2sna6763', 'password': '654321'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d95d24429904a787",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609925673839,
+        "stop" : 1609925675387,
+        "duration" : 1548
+      }
+    }, {
+      "uid" : "da24caf029d78d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609924916918,
+        "stop" : 1609924918670,
+        "duration" : 1752
+      }
+    }, {
+      "uid" : "f4f720dc9f77a180",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609923359307,
+        "stop" : 1609923361995,
+        "duration" : 2688
+      }
+    }, {
+      "uid" : "8ab44a36b03bde92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609921328529,
+        "stop" : 1609921329911,
+        "duration" : 1382
+      }
+    }, {
+      "uid" : "47410b28e7f66966",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609858645382,
+        "stop" : 1609858646756,
+        "duration" : 1374
+      }
+    }, {
+      "uid" : "41db9830e3262cd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609858451727,
+        "stop" : 1609858453081,
+        "duration" : 1354
+      }
+    }, {
+      "uid" : "f4d84ff8ebee4990",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'module' object is not callable",
+      "time" : {
+        "start" : 1609858079937,
+        "stop" : 1609858081561,
+        "duration" : 1624
+      }
+    }, {
+      "uid" : "bf09dacaf31dc013",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'module' object is not callable",
+      "time" : {
+        "start" : 1609856709503,
+        "stop" : 1609856710984,
+        "duration" : 1481
+      }
+    }, {
+      "uid" : "fc78585efeb0ef08",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'module' object is not callable",
+      "time" : {
+        "start" : 1609856259602,
+        "stop" : 1609856260362,
+        "duration" : 760
+      }
+    }, {
+      "uid" : "9e696332a8ac9ade",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609595662142,
+        "stop" : 1609595663435,
+        "duration" : 1293
+      }
+    }, {
+      "uid" : "3ba9dd6cb78c9f49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609595585923,
+        "stop" : 1609595587310,
+        "duration" : 1387
+      }
+    }, {
+      "uid" : "26716a403b046fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609595380779,
+        "stop" : 1609595382129,
+        "duration" : 1350
+      }
+    }, {
+      "uid" : "728af50abe50625d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609595269301,
+        "stop" : 1609595270584,
+        "duration" : 1283
+      }
+    }, {
+      "uid" : "e35d9bfeada3799f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609595072819,
+        "stop" : 1609595074220,
+        "duration" : 1401
+      }
+    }, {
+      "uid" : "69e4951045a72e69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609594973785,
+        "stop" : 1609594974636,
+        "duration" : 851
+      }
+    }, {
+      "uid" : "3959889d93483350",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609593972186,
+        "stop" : 1609593977679,
+        "duration" : 5493
+      }
+    }, {
+      "uid" : "a01729d8d4a7f0b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609593763447,
+        "stop" : 1609593764667,
+        "duration" : 1220
+      }
+    }, {
+      "uid" : "99cb50f4aefe0b56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609593307158,
+        "stop" : 1609593307948,
+        "duration" : 790
+      }
+    }, {
+      "uid" : "76c8e05ee42b1106",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609591875980,
+        "stop" : 1609591876780,
+        "duration" : 800
+      }
+    }, {
+      "uid" : "135f90cfe920553",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609591286877,
+        "stop" : 1609591287701,
+        "duration" : 824
+      }
+    }, {
+      "uid" : "d2aec5ca56626682",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609589976662,
+        "stop" : 1609589977388,
+        "duration" : 726
+      }
+    }, {
+      "uid" : "8af1334996bf7242",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609589880234,
+        "stop" : 1609589880969,
+        "duration" : 735
+      }
+    }, {
+      "uid" : "dcf723bc26e394e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609587148868,
+        "stop" : 1609587149540,
+        "duration" : 672
+      }
+    }, {
+      "uid" : "c0d358076c295658",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609586585116,
+        "stop" : 1609586585975,
+        "duration" : 859
+      }
+    }, {
+      "uid" : "d8ce6f1bd0aff25e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609586468291,
+        "stop" : 1609586469089,
+        "duration" : 798
+      }
+    }, {
+      "uid" : "e54d104f71ca6431",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609586029333,
+        "stop" : 1609586030391,
+        "duration" : 1058
+      }
+    }, {
+      "uid" : "3fb100fa88741a72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609585442657,
+        "stop" : 1609585443624,
+        "duration" : 967
+      }
+    }, {
+      "uid" : "4a69d3c84c819d33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609585015274,
+        "stop" : 1609585016130,
+        "duration" : 856
+      }
+    }, {
+      "uid" : "88a4e1801e266553",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609584867684,
+        "stop" : 1609584868507,
+        "duration" : 823
+      }
+    }, {
+      "uid" : "2fba7b93a0b58d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609584783014,
+        "stop" : 1609584784130,
+        "duration" : 1116
+      }
+    }, {
+      "uid" : "742295664a179466",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609584721920,
+        "stop" : 1609584722712,
+        "duration" : 792
+      }
+    }, {
+      "uid" : "16a3bc12c368ebb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609584674679,
+        "stop" : 1609584675336,
+        "duration" : 657
+      }
+    }, {
+      "uid" : "4e24cea7e38a37ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609584525262,
+        "stop" : 1609584525950,
+        "duration" : 688
+      }
+    }, {
+      "uid" : "e4ee6dde8d6fe642",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609584033893,
+        "stop" : 1609584034709,
+        "duration" : 816
+      }
+    }, {
+      "uid" : "11913782920a6704",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"txtUsername\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1609583856794,
+        "stop" : 1609583856882,
+        "duration" : 88
+      }
+    }, {
+      "uid" : "72db93dcd38b4bd4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"txtUsername\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1609583813052,
+        "stop" : 1609583813071,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "ee3758522fd3bca5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"id\",\"selector\":\"txtUsername\"}\n  (Session info: chrome=87.0.4280.88)\n  (Driver info: chromedriver=2.44.609538 (b655c5a60b0b544917107a59d4153d4bf78e1b90),platform=Windows NT 10.0.18363 x86_64)",
+      "time" : {
+        "start" : 1609575216519,
+        "stop" : 1609575216540,
+        "duration" : 21
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('refresh_page')" ]
+  },
+  "source" : "665cca7c70c4e4cd.json",
+  "parameterValues" : [ "{'name': '登录功能-异常登录-密码错误', 'username': '财友2sna6763', 'password': '654321'}" ]
+}

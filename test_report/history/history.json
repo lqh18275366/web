@@ -1,0 +1,97 @@
+{
+  "28fbee3f7849e5c692210a9f12e7fe96" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc88249d01a3e86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610940148113,
+        "stop" : 1610940150129,
+        "duration" : 2016
+      }
+    } ]
+  },
+  "daee70692129a544e4ece7a1edb1fbca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b1c254587b6e3237",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610940153929,
+        "stop" : 1610940154933,
+        "duration" : 1004
+      }
+    } ]
+  },
+  "d93c8b521d1ee7fc4eb27338522fd359" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f5b66868ad41bce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610940143095,
+        "stop" : 1610940144364,
+        "duration" : 1269
+      }
+    } ]
+  },
+  "4de4eac7aa5437331edc4ae996ff58ee" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3c6aa18f7786a19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610940164652,
+        "stop" : 1610940178845,
+        "duration" : 14193
+      }
+    } ]
+  },
+  "dbeb2a97f887c27b8015e9253b5aa614" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "665cca7c70c4e4cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610940159036,
+        "stop" : 1610940161058,
+        "duration" : 2022
+      }
+    } ]
+  }
+}

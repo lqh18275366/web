@@ -1,0 +1,51 @@
+INFO     root:get_log.py:36 执行test_login_failed测试用例
+INFO     root:get_log.py:36 登录测试-异常数据
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/element {"using": "id", "value": "txtUsername", "sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "POST /session/7b933eae263d87a647f2740da0806e8a/element HTTP/1.1" 200 103
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/element/0.23360365955487916-1/clear {"id": "0.23360365955487916-1", "sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "POST /session/7b933eae263d87a647f2740da0806e8a/element/0.23360365955487916-1/clear HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/element {"using": "id", "value": "txtPassword", "sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "POST /session/7b933eae263d87a647f2740da0806e8a/element HTTP/1.1" 200 103
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/element/0.23360365955487916-2/clear {"id": "0.23360365955487916-2", "sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "POST /session/7b933eae263d87a647f2740da0806e8a/element/0.23360365955487916-2/clear HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/element {"using": "id", "value": "txtUsername", "sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "POST /session/7b933eae263d87a647f2740da0806e8a/element HTTP/1.1" 200 103
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/element/0.23360365955487916-1/value {"text": "\u8d22\u53cb2sna6763", "value": ["\u8d22", "\u53cb", "2", "s", "n", "a", "6", "7", "6", "3"], "id": "0.23360365955487916-1", "sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "POST /session/7b933eae263d87a647f2740da0806e8a/element/0.23360365955487916-1/value HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/element {"using": "id", "value": "txtPassword", "sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "POST /session/7b933eae263d87a647f2740da0806e8a/element HTTP/1.1" 200 103
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/element/0.23360365955487916-2/value {"text": "654321", "value": ["6", "5", "4", "3", "2", "1"], "id": "0.23360365955487916-2", "sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "POST /session/7b933eae263d87a647f2740da0806e8a/element/0.23360365955487916-2/value HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/element {"using": "class name", "value": "sso-btn-login", "sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "POST /session/7b933eae263d87a647f2740da0806e8a/element HTTP/1.1" 200 103
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/element/0.23360365955487916-3/click {"id": "0.23360365955487916-3", "sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "POST /session/7b933eae263d87a647f2740da0806e8a/element/0.23360365955487916-3/click HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:36 期望值：True
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/element {"using": "xpath", "value": "/html/body/div[2]/div/div/form/div[2]/span", "sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "POST /session/7b933eae263d87a647f2740da0806e8a/element HTTP/1.1" 200 103
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/element/0.23360365955487916-5/displayed {"id": "0.23360365955487916-5", "sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "GET /session/7b933eae263d87a647f2740da0806e8a/element/0.23360365955487916-5/displayed HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:36 实际值：True
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/element {"using": "xpath", "value": "/html/body/div[2]/div/div/form/div[2]/span", "sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "POST /session/7b933eae263d87a647f2740da0806e8a/element HTTP/1.1" 200 103
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/element/0.23360365955487916-5/displayed {"id": "0.23360365955487916-5", "sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "GET /session/7b933eae263d87a647f2740da0806e8a/element/0.23360365955487916-5/displayed HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:36 {'name': '登录功能-异常登录-用户名为空', 'username': '', 'password': '654321'}, 测试用例执行完毕， 测试结果： ========= PASS ========= 
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:58754/session/7b933eae263d87a647f2740da0806e8a/screenshot {"sessionId": "7b933eae263d87a647f2740da0806e8a"}
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://127.0.0.1:58754 "GET /session/7b933eae263d87a647f2740da0806e8a/screenshot HTTP/1.1" 200 634066
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+INFO     root:get_log.py:36 截图成功，图片保存路径为：C:\Users\Administrator\PycharmProjects\po_jrj\img\用户名或密码为错误时截图-2021-01-02_21_53_06.png
